@@ -1,15 +1,16 @@
 const todoList=[];
-let toDoList='';
+ 
+let todoList='';
 function eventList(){
   for(i=0;i<todoList.length;i++){
     const todo=todoList[i];
     const html=`<p>${todo}</p>`;
-    toDoList+=html;
+    todoList+=html;
 }
-console.log(toDoList) 
+console.log(todoList);
 
-document.querySelector('.divtext').innerHTML=toDoList;
-}  
+document.querySelector('')
+
 function addWork(){
   const inputElement=document.querySelector('.js-work-Input');
   const name=inputElement.value;
@@ -20,3 +21,4 @@ function addWork(){
   inputElement.value='';
   console.log(todoList);  
 }
+

@@ -8,7 +8,7 @@ function eventList(){
 }
 console.log(toDoList) 
 
-document.querySelector('.divtext').innerHTML=toDoList;
+document.quer
 }  
 function addWork(){
   const inputElement=document.querySelector('.js-work-Input');

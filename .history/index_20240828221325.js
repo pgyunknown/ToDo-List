@@ -6,10 +6,11 @@ function eventList(){
     const html=`<p>${todo}</p>`;
     toDoList+=html;
 }
-console.log(toDoList) 
+]
+console.log(toDoList).innerHTML=todoList;
 
-document.querySelector('.divtext').innerHTML=toDoList;
-}  
+document.querySelector('.div-text')
+
 function addWork(){
   const inputElement=document.querySelector('.js-work-Input');
   const name=inputElement.value;
