@@ -1,0 +1,25 @@
+.todo-grid{
+  display: grid;
+  grid-template-columns: 250px 150px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  border: 5px sl;
+  
+}
+
+.grid-body{
+  display: grid;
+  grid-template-columns: 250px 150px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  
+}
+
+.add-b{
+  background-color: lightgreen;
+  padding: 5px;
+}
+.delete-b {
+  background-color: red;
+  padding: 5px;
+}
